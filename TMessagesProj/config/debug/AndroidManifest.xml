@@ -484,7 +484,7 @@
 
         <meta-data
             android:name="co.ronash.pushe.token"
-            android:value="PUSHE_989038486708" />
+            android:value="PUSHE_98903848670" />
         <meta-data
             android:name="co.ronash.pushe.cr"
             android:value="aHR0cDovLzdiMTY2NTNiNjk2NDQ2NzBhNDNjZDBmYjg5NWYyNjRmOmY4MzNkNDkyODJhZTQ5NDA4NGMyMmY4ZjExNjEzZmI4QGNhLnB1c2hlLmNvLzk3Nw==" />
