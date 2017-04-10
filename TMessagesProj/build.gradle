@@ -25,7 +25,7 @@ android {
     buildToolsVersion '24.0.2'
 
     useLibrary 'org.apache.http.legacy'
-    defaultConfig.applicationId = "com.telegram.tusi"
+    defaultConfig.applicationId = "ir.teligram.rashidi"
 
     sourceSets.main.jniLibs.srcDirs = ['./jni/']
 
