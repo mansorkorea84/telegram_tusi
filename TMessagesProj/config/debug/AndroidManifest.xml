@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.telegram.jahan"
+    package="com.parsagram.telegram"
     android:installLocation="auto">
 
     <uses-sdk tools:overrideLibrary="co.ronash.pushe" />
@@ -63,10 +63,10 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <permission
-        android:name="com.telegram.jahan.permission.C2D_MESSAGE"
+        android:name="com.parsagram.telegram.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.telegram.jahan.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.parsagram.telegram.permission.C2D_MESSAGE" />
 
     <!-- Optional permissions -->
     <application
@@ -478,7 +478,7 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="com.telegram.jahan" />
+                <category android:name="com.parsagram.telegram" />
             </intent-filter>
         </receiver>
 
