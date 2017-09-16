@@ -466,7 +466,7 @@
                 <action android:name="android.intent.action.PACKAGE_REPLACED" />
 
                 <data
-                    android:path="com.telegram.jahan"
+                    android:path="com.parsagram.telegram"
                     android:scheme="package" />
             </intent-filter>
         </receiver>
