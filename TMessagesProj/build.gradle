@@ -25,7 +25,7 @@ android {
     buildToolsVersion '24.0.2'
 
     useLibrary 'org.apache.http.legacy'
-    defaultConfig.applicationId = "com.parsagram.telegram"
+    defaultConfig.applicationId = "com.telegram.likegram"
 
     sourceSets.main.jniLibs.srcDirs = ['./jni/']
 
